@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>🎨 Color Palette Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="parent">
+        <div class="div1">
+          <input id="color-picker" type="color" value="#638E97" />
+          <div class="drop-down-menu">
+            <select class="minimal" name="" id="schemes">
+              <option value="monochrome">Monochrome</option>
+              <!-- <option value="monochrome-dark">Monochrome-dark</option>
+              <option value="monochrome-lgiht">Monochrome-light</option> -->
+              <option value="analogic">Analogic</option>
+              <option value="complement">Complement</option>
+              <option value="analogic-complement">Analogic-complement</option>
+              <option value="triad">Triad</option>
+            </select>
+          </div>
+          <div id="pick-color">
+            <button id="get-color-scheme">Get color scheme</button>
+          </div>
+        </div>
+        <div class="color-one color"></div>
+        <div class="color-two color"></div>
+        <div class="color-three color"></div>
+        <div class="color-four color"></div>
+        <div class="color-five color"></div>
+        <div class="div7 hex-val"><p class="hex-value-1">#638E97</p></div>
+        <div class="div8 hex-val">
+          <p class="hex-value-2">#60858D</p>
+        </div>
+        <div class="div9 hex-val"><p class="hex-value-3">#03778F</p></div>
+        <div class="div10 hex-val"><p class="hex-value-4">#626798</p></div>
+        <div class="div11 hex-val"><p class="hex-value-5">#75649D</p></div>
+      </div>
+    </div>
+    <script src="brains.js"></script>
+  </body>
+</html>
